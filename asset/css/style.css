@@ -1,0 +1,18 @@
+html {   
+  font-family: "Lucinda Console", monospace;
+  }
+
+  span {
+    display: inline-block;
+    width: 100px;
+}
+
+#email a:hover{
+  font-weight: bold;
+  /* color:red; */
+}
+
+#github a:hover{
+  font-weight: bold;
+  /* color: fuchsia; */
+}
