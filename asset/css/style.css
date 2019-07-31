@@ -1,18 +1,93 @@
-html {   
-  font-family: "Lucinda Console", monospace;
-  }
+/* font-family: 'IBM Plex Mono', monospace;
+font-family: 'Libre Barcode 39', cursive;
+font-family: 'Audiowide', cursive; */
 
+html {   
+    font-family: 'IBM Plex Mono', monospace;
+    }
+  
+  img{
+    float: left;
+  }
+  #masthead {
+      position: initial;
+      z-index: -1;
+      width: 100%;
+      height: 80px;
+      margin: 0 0 30px;
+      overflow-y: hidden;
+      color: black;
+      background: #ffffff;
+    }
+  
+    .container {
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+      clear: both;
+    }
+  
+  #LogoPic{
+      float:left;
+      height: 76px
+   }
+  
+  
+  #Name{
+    width: 265px;
+    float: left;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    font-weight: 720;
+    line-height: 72px;
+    text-align: center;
+  }
+  
+  #Barcode{
+    width: 265px;
+    float: left;
+    font-family: 'Libre Barcode 39', cursive;
+    font-size: 36px;
+    line-height: 93px;
+    text-align: right;
+  }
+  
+  #Navlinks{
+    width: 365px;
+    float: right;
+    font-family: 'Audiowide', cursive;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 85px;
+  }
+  
   span {
     display: inline-block;
-    width: 100px;
-}
-
-#email a:hover{
-  font-weight: bold;
-  /* color:red; */
-}
-
-#github a:hover{
-  font-weight: bold;
-  /* color: fuchsia; */
-}
+    width: 190px;
+  }
+  
+  #email a:hover{
+    font-weight: bold;
+  }
+  
+  #github a:hover{
+    font-weight: bold;
+  }
+  
+  #LinkedIn a:hover{
+    font-weight: bold;
+  }
+  
+  #text1 a:hover{
+    font-weight: bold;
+  }
+  
+  #text2 a:hover{
+    font-weight: bold;
+  }
+  
+  .navlinks:hover{
+    font-weight: bold;
+  }
+  
